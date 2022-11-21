@@ -9,6 +9,6 @@ app.use(cors());
 app.use(userRouter);
 app.use(operationRouter);
 
-app.listen(process.env.PORT, () => {
-  console.log("App running at port: " + process.env.PORT);
+app.listen(5000, () => {
+  console.log("App running at port: 5000");
 });
